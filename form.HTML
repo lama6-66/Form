@@ -1,0 +1,94 @@
+<html>
+
+<head>
+    <title>Form</title>
+</head>
+
+<body bgcolor="lightblue " style="align-items: center; display: flex; justify-content: center;">
+
+    <div  style="background-color: aliceblue; width: 
+    700px;height: 800px; ;  ">
+    
+<form action="#" method="post" enctype="multipart/form-data">
+
+    <h2>  ~  How much do we spend on our mobile phones daily? ~
+    </h2>
+     <p>Let's find out together: How much time do we spend on our phones each day? And what do we waste our time on?!</p>
+<fieldset>
+
+    <legend>Your Details</legend>
+    <label>Name:<br />
+        <input type="text" name="name">
+        <br />
+    </label>
+
+    Gender :
+    <input id="female" type="radio" name="gender" value="female">
+    <label for="female">Female</label>
+    <input id="male" type="radio" name="gender" value="male">
+    <label for="male">Male <br /></label>
+    <br />
+    <label for="d">Date of Birth :</label>
+    <input type="date" name="date"/>
+    <br />
+    
+</fieldset>
+<br />
+<fieldset>
+<legend>
+
+    Phone usage behavior :
+</legend>
+
+<p>What are the main reasons you use mobile ? :
+
+<br />
+<input type="checkbox" name="mobile" value="social" checked="checked">
+Social media
+<input type="checkbox" name="mobile" value="work" >
+Work and Study
+<input type="checkbox" name="mobile" value="movies" >
+Movies,Games
+
+</p>
+
+<p>How many hours do you spend on your mobile phone per day? :</p>
+    <select name="old">
+
+        <option value="number1"> 2-4</option>
+        <option value="number2"> 5-6</option>
+        <option value="number3"> 7-8</option>
+        <option value="number4"> 9 or more</option>
+    </select>
+<p>How do you rate your mobile addiction? :</p>
+    <select name="addiction">
+
+        <option value="number1"> 1</option>
+        <option value="number2"> 2</option>
+        <option value="number3"> 3</option>
+        <option value="number4"> 4</option>
+        <option value="number5"> 5</option>
+    </select>
+
+ <p>Upload a screenshot of your daily mobile usage : </p>
+ <input type="file" name="mobile"><br />
+ <input type="submit" value="upload"><br />
+
+ <p>How do you feel when you are away from your mobile phone?</p>
+ <textarea name="feel" cols="30" rows="4" placeholder="Enter your answer.."></textarea>
+</fieldset>
+<br />
+<button type="submit">
+
+    <img src="photo.jpg" alt="send" width="40" height="40" />
+</button>
+
+</form>
+
+
+    </div>
+
+</body>
+
+
+</html>
